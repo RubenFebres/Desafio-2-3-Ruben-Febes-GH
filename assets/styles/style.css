@@ -17,6 +17,7 @@ body {
 }
 
 .ejercicio1 {
+  margin: 10px;
   width: 200px;
   height: 200px;
 }
@@ -28,6 +29,7 @@ body {
 }
 
 .ejercicio2 {
+  margin: 10px;
   border: solid 3px;
   padding: 50px;
   display: flex;
@@ -43,14 +45,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-
-#form button {
-  border: none;
-  background-color: rgb(28, 28, 77);
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
 }
 
 .cards {
@@ -82,6 +76,7 @@ body {
 }
 
 .ejercicio3 {
+  margin: 10px;
   border: solid 2px black;
   padding: 10px;
   display: flex;
@@ -107,4 +102,12 @@ body {
   border-radius: 8px;
   font-size: large;
   border: solid 2px rgb(4, 17, 197);
+}
+
+.botones {
+  border: none;
+  background-color: rgb(28, 28, 77);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
